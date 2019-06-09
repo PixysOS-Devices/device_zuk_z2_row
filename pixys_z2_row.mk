@@ -24,6 +24,10 @@ $(call inherit-product, device/zuk/z2_row/device.mk)
 # Inherit some common PixysOS stuff.
 $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 
+# Pixys stuff
+PIXYS_BUILD_TYPE=OFFICIAL
+PIXYS_MAINTAINERS="Aswin A S & Nikhil Gohil"
+
 PRODUCT_NAME := pixys_z2_row
 PRODUCT_DEVICE := z2_row
 PRODUCT_MANUFACTURER := ZUK
