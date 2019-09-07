@@ -15,3 +15,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/pixys_z2_row.mk
+
+COMMON_LUNCH_CHOICES := \
+    pixys_z2_row-userdebug \
+    pixys_z2_row-eng
