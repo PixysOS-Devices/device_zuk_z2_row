@@ -28,6 +28,9 @@ $(call inherit-product, vendor/pixys/config/common_full_phone.mk)
 PIXYS_BUILD_TYPE=OFFICIAL
 PIXYS_MAINTAINERS="Aswin A S & Nikhil Gohil"
 
+# Boot animation
+TARGET_BOOT_ANIMATION_RES := 1080
+
 PRODUCT_NAME := pixys_z2_row
 PRODUCT_DEVICE := z2_row
 PRODUCT_MANUFACTURER := ZUK
