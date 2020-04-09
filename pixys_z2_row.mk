@@ -31,6 +31,9 @@ PIXYS_MAINTAINERS="Aswin A S & Nikhil Gohil"
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
+# GApps
+TARGET_GAPPS_ARCH := arm64
+
 PRODUCT_NAME := pixys_z2_row
 PRODUCT_DEVICE := z2_row
 PRODUCT_MANUFACTURER := ZUK
