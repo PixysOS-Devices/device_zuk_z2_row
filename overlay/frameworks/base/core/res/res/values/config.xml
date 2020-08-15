@@ -112,4 +112,8 @@
     <!-- Do the battery/notification LEDs support pulsing? </resources> Used to decide if we show 
          pulse settings -->
     <bool name="config_ledCanPulse">true</bool>
+
+    <!-- Multicolor Led Support -->
+    <bool name="config_multiColorBatteryLed">true</bool>
+
  </resources>
